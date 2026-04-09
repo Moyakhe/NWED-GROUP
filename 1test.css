@@ -1,0 +1,353 @@
+﻿
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+navbar {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    list-style: upper-latin;
+    background: none;
+}
+
+    ul li {
+        display: inline-block;
+        position: relative;
+    }
+
+        ul li a {
+            display: block;
+            padding: 20px 25px;
+            color: #FFF;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li ul.dropdown {
+            width: 100%;
+            background: none;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+
+        ul li a:hover {
+            background: #415132;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .overlay {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.4); /* optional dark overlay */
+}
+
+/* Sections with background images */
+.section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+    .section .overlay {
+        background: rgba(0,0,0,0.5);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+
+.btn {
+    background: #556b2f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.menu-carousel {
+    display: flex;
+    overflow-x: auto; /* allows horizontal scrolling */
+    scroll-snap-type: x mandatory;
+}
+
+.menu-page {
+    flex: 0 0 100%; /* each page takes full width */
+    scroll-snap-align: start;
+    padding: 50px;
+    background: #3e5a36;
+    text-align: center;
+}
+
+.section.menu p {
+    position: relative;
+    top: 140px;
+ }
+
+h1, p {
+    margin: 0;
+}
+
+.section.menu {
+    overflow-x: auto; /* allows horizontal scrolling */
+}
+
+.section.about {
+    overflow-x: auto; /* allows horizontal scrolling */
+}
+
+.section.contact {
+    overflow-x: auto; /* allows horizontal scrolling */
+}
+body{ 
+    background-color: #2E8857  #dee6de #d9f2d2;
+    background-image: linear-gradient(to bottom,  #adb5aa, #d8dfcc, #b4b9b0);
+    background-position: bottom  #bfc5bb;
+    background-size: cover;
+} 
+/*For the background-color, I added a new color #2E8857 to create a more vibrant and fresh look.
+For the background-image, I added a new color #415132 to create a more dynamic gradient effect. This will give the background more depth and visual interest.
+For the background-position, I changed it to bottom #455d32 to create a more grounded and earthy feel. This will help to balance out the vibrant colors in the background and create a more cohesive overall design.
+For the background-size, I set it to cover to ensure that the background image covers the entire background area, regardless 
+of the screen size. This will help to create a more immersive and engaging user experience.*/
+   
+
+ul{   
+     color:black;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li{ 
+    margin-bottom: 10px;
+}
+p{ 
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h1{ 
+    color: black;
+    font-family: serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h2{ 
+    color: black;
+    font-family: 'times new roman', serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+h3{ 
+    color: black;
+    font-family: 'times new roman', serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+span{ 
+    color: black;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;}
+
+    h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+h2{ 
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+h3{ 
+    font-family: 'Times New Roman', serif;
+    font-size: bolder;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4{ 
+    font-family: 'Times New Roman', serif;
+    font-size: smaller;
+    font-style: normal;
+    font-weight: normal;
+}
+h5{ 
+    font-family: 'Times New Roman', serif;
+    font-size: medium;
+    font-style: italic;
+    font-weight: normal;
+}
+
+body{ 
+    background-color: #2E8857  #dee6de #d9f2d2;
+    background-image: linear-gradient(to bottom,  #adb5aa, #d8dfcc, #b4b9b0);
+    background-position: bottom  #bfc5bb;
+    background-size: cover;
+}
+
+
+  
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #415132;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #415132;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .layout {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .right {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .card {
+      background: #415132;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #415132;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #333;
+      color: #415132;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    Body{
+
+  background-color: #415132;
+  background-blend-mode:luminosity;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-blend-mode:luminosity;applies the brightness of the background image to the background,creating a blend effect eith the background*/
+  /*background-repeat:no repeat;prevents the picture from repeating  horizontally and vertically*/
+  /*background-size:cover;makes the background image cover the entire element*/
+
+
+
+
+h1{
+  color: white; font-size: 40px;/*defines the font color and font size for heading 1*/
+}
+h2{
+  color: antiquewhite; font-family: Arial,serif;
+}/*Defines the font color and the fontfamily for all heding 2 text*/
+
+
+p{
+  font-weight: bolder; color:beige;/* Displays beige font color for paragraph text*/
+  }
+  center{
+      color: beige}
+      /*this code diaplys the color of the centered text (the disclaimer) to apperat in a beige color*/
+  }
