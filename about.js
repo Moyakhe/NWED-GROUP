@@ -19,17 +19,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const mainTitle = document.querySelector('center > h1');
     if (mainTitle) {
-        mainTitle.style.color = 'black';
+        mainTitle.style.color = 'beige';
     }
     
     const disclaimer = document.querySelector('small');
     if (disclaimer) {
-        disclaimer.style.color = 'black';
+        disclaimer.style.color = 'beige';
     }
     
     const footer = document.querySelector('footer p');
     if (footer) {
-        footer.style.color = 'black';
+        footer.style.color = 'beige';
     }
 
     // Finds the "Our Chefs" heading

@@ -158,16 +158,17 @@ of the screen size. This will help to create a more immersive and engaging user 
    
 
 ul{   
-     color:black;
+     color: black;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 li{ 
     margin-bottom: 10px;
+    color: beige;
 }
 p{ 
-    color: black;
+    color: beige;
     font-family: 'Times New Roman', serif;
     font-size: 15px;
     line-height: 1.6;
@@ -181,7 +182,7 @@ h1{
     margin-bottom: 20px;
 }
 h2{ 
-    color: black;
+    color: beige;
     font-family: 'times new roman', serif;
     font-size: 12px;
     margin-bottom: 15px;
@@ -191,9 +192,9 @@ h2{
     text-underline-offset: 4px;
 }
 h3{ 
-    color: black;
+    color: beige;
     font-family: 'times new roman', serif;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 15px;
     font-style: italic;
 }
@@ -213,7 +214,7 @@ span{
 
 h2{ 
     font-family: 'Times New Roman', sans-serif;
-    font-size: 20px;
+    font-size: medium;
     font-style: normal;
     font-weight: normal;
     text-underline-position: under;
@@ -229,7 +230,8 @@ h3{
 
 h4{ 
     font-family: 'Times New Roman', serif;
-    font-size: smaller;
+    color:beige;
+    font-size: medium;
     font-style: normal;
     font-weight: normal;
 }
@@ -325,7 +327,7 @@ body {
 
     Body{
 
-  background-color: #415132;
+  background-color: #18291e;
   background-blend-mode:luminosity;
   background-repeat: no-repeat;
   background-size: cover;
@@ -345,9 +347,15 @@ h2{
 
 
 p{
-  font-weight: bolder; color:beige;/* Displays beige font color for paragraph text*/
+  font-weight: bolder; color:rgb(254, 254, 247);/* Displays beige font color for paragraph text*/
   }
   center{
       color: beige}
       /*this code diaplys the color of the centered text (the disclaimer) to apperat in a beige color*/
   }
+
+  p2{
+    font-weight: smaller; color:rgb(254, 254, 247);/* Displays beige font color for paragraph text*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  

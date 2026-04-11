@@ -23,10 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         
         printBtn.addEventListener('mouseenter', () => {
-            printBtn.style.background = '#2E8857';
+            printBtn.style.background = '#455D32';
         });
         printBtn.addEventListener('mouseleave', () => {
-            printBtn.style.background = '#556b2f';
+            printBtn.style.background = '#7a966e';
         });
         
         title.insertAdjacentElement('afterend', printBtn);
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <head><title>${title.textContent}</title>
                 <style>
                     body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-                    h1 { color: #2E8857; }
+                    h1 { color: #83a693; }
                     ul, ol { margin: 15px 0; }
                     li { margin: 8px 0; }
                     @media print { button { display: none; } }
@@ -91,12 +91,12 @@ document.addEventListener("DOMContentLoaded", function() {
             font-size: 14px;
             outline: none;
             background: #dee6de;
-            color: #333;
+            color: #3e5a2e;
         ">
         <button id="searchBtn" style="
             padding: 10px 22px;
             margin-left: 10px;
-            background: #556b2f;
+            background: #4e6243;
             color: white;
             border: none;
             border-radius: 5px;
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <button id="clearBtn" style="
             padding: 10px 22px;
             margin-left: 8px;
-            background: #8B7355;
+            background: #3e5a2e;
             color: white;
             border: none;
             border-radius: 5px;

@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     backToTop.addEventListener('mouseleave', function() {
         this.style.background = 'transparent';
-        this.style.color = '#556b2f';
+        this.style.color = 'beige';
         this.style.borderColor = 'rgba(85, 107, 47, 0.3)';
         this.style.transform = 'translateY(0)';
         this.style.boxShadow = 'none';
