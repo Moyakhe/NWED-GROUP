@@ -1568,7 +1568,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Custom
-*.html*
+# *.html*
 *py-imp/code/machines/Assets/EDA/*
 *py-imp/code/pump/Assets/EDA/*
 */data/*
